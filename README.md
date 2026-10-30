@@ -64,9 +64,18 @@ Current focus: LLM Pipelines · Agentic QA · Structured Outputs · Embeddings (
 
 ## 🧭 Engineering Principles
 
-- **SOLID-focused architecture**: one job per module, dependencies injected and depending on abstractions.
-- **Tests first, red then green**: every change starts with a test that fails for the right reason, then passes with the fix.
-- **Audit trails and cost estimates (dry-run mode)** for every LLM pipeline.
-- **The simplest design that works.**
-- **The agent never reviews its own code**: independent review skills, guidelines and guardrails govern every AI-assisted change.
-- **CI green before merge.**
+> **"Do it right the first time — Zero tech debt — Develop once, implement multiple times with shared logic."**
+
+Every contributor and automated agent is expected to align with these foundational tenets:
+
+### 🏛️ Architecture & Simplicity
+* **SOLID-Focused:** One responsibility per module, with dependencies injected and decoupled via abstractions.
+* **The Simplest Design That Works:** Avoid over-engineering; build precisely what is needed with maximum clarity.
+
+### 🧪 Quality & Verification
+* **Test-Driven Development (TDD):** Every change starts with a test that fails for the right reason (red), followed by the minimal fix to pass (green).
+* **Gatekeeper CI:** All checks and CI pipelines must be completely green before merging into main.
+
+### 🤖 AI & Automation Governance
+* **Transparent LLM Pipelines:** Built-in audit trails and cost estimates (dry-run mode) are mandatory for every LLM operation.
+* **Zero Self-Review:** An AI agent never reviews its own code; independent review skills, strict guidelines, and guardrails govern every AI-assisted change.

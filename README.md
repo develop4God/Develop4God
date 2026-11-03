@@ -25,7 +25,7 @@ I design, build and ship LLM pipelines and the products around them, owning each
 | [devocional_nuevo](https://github.com/develop4God/devocional_nuevo) | Christian Devotionals: production Flutter app on Google Play in 10 languages, including Arabic (RTL) and Hindi | Flutter, Dart, BLoC, Firebase |
 | [saas-tools](https://github.com/develop4God/saas-tools) | Live multi-tenant platform for law firms: quoting, KYC forms, risk matrix, OFAC/UN sanctions screening. Tenant isolation via JWT claim and Postgres RLS | FastAPI, React, PostgreSQL (Neon), Render |
 | [devocionales-json](https://github.com/develop4God/devocionales-json) | Production devotional corpus with CI, pre-merge validation and duplicate checking | JSON, GitHub Actions |
-| [devocionales-ai-review](https://github.com/develop4God/devocionales-ai-review) | Multi-stage LangGraph pipeline: translation, error detection, independent critic review, automated fixing, validation | Python, LangGraph |
+| [devocionales-ai-review](https://github.com/develop4God/devocionales-ai-review) | Multi-stage LangGraph pipeline and Genome Evolution Protocol: translation, error detection, independent critic review, automated fixing, validation | Python, LangGraph |
 | [sanctions-check](https://github.com/develop4God/sanctions-check) | Automated SDN/OFAC screening for compliance professionals, as a web and desktop app | React, FastAPI, Electron |
 | [habitus_faith](https://github.com/develop4God/habitus_faith) | Faith-based habit tracker with AI personalization | Flutter |
 | [biblitos](https://github.com/develop4God/biblitos) | Free-play biblical world for children aged 3–8 | Flame |
